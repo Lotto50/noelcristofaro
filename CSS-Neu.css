@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.relative {
+  position: relative;
+  left: 310px;
+  
+}
+.family{
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.header {
+	background-color:aquamarine;
+	text-aligne: center;
+	padding: 50px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	text-align: center;
+}
+.topnav {
+	overflow: hidden;
+	background-color:bisque;
+	padding: 10px;
+		
+}
+topnav a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	text-decoration:none;
+	font-size: 20px;
+	font-weight: bold;
+	white-space: normal
+	
+}
+.topnav a:hover{
+	background-color:honeydew;
+	color: black;
+	padding: 10;
+	
+}
+body{
+	background-image: url("Pilatus_Profil-modified.jpg")
+	
+	
+}
+.column {
+	float:left;
+	width: 33.33%;
+	padding: 15px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+	}
+	
